@@ -52,7 +52,7 @@ class MakeVideo(Files):
 
 if __name__=='__main__':
     
-    kv = MakeVideo(r'Z:\2_Projekt__Permeabilitätsbeeinflussung\AP 6 - 25%\02_Permeabilität_25%\PermDetector_git\FlowFrontDetector\2017-05-05_03')
+    kv = MakeVideo(r'2017-05-05_03')
     print(kv.files.head())
     kv.createVideo()
     print(kv.current_dir)
